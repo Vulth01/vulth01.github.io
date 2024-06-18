@@ -3,7 +3,7 @@ head {
 }
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #5eff4f;
+  background-color: #ddb1fc;
   margin: 0;
   padding: 0;
   display: flex;
@@ -13,7 +13,7 @@ body {
 }
 
 .project-container {
-  background-color: #ff66c7;
+  background-color: #37deaf;
   border-radius: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   padding: 40px;
