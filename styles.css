@@ -1,7 +1,5 @@
-
-    /* Global styles */
-    body {
-      font-family: 'Open Sans', sans-serif;
+body {
+      font-family: 'Montserrat', sans-serif;
       background-color: #f9f9f9;
       margin: 0;
       padding: 0;
@@ -14,20 +12,37 @@
     /* Container for the project */
     .project-container {
       background-color: #ffffff;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
       padding: 40px;
       max-width: 600px;
       width: 100%;
       text-align: center;
+      position: relative;
+      overflow: hidden;
+      animation: float 5s ease-in-out infinite alternate;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-10px); }
     }
 
     /* Project title styling */
     .project-title {
-      font-size: 32px;
+      font-size: 36px;
       font-weight: bold;
       color: #333333;
       margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      animation: color-change 8s ease-in-out infinite alternate;
+    }
+
+    @keyframes color-change {
+      0% { color: #333333; }
+      50% { color: #007bff; }
+      100% { color: #333333; }
     }
 
     /* Project description styling */
@@ -45,12 +60,40 @@
       background-color: #007bff;
       color: #ffffff;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 30px;
       transition: background-color 0.3s ease;
       font-size: 18px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border: 2px solid #007bff;
+      overflow: hidden;
     }
 
     /* Hover effect for the link */
     .project-link:hover {
-      background-color: #0056b3;
+      background-color: transparent;
+      color: #007bff;
+    }
+
+    .project-link::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 300%;
+      height: 300%;
+      background-color: #007bff;
+      border-radius: 50%;
+      transition: all 0.5s ease;
+      z-index: 0;
+      transform: translate(-50%, -50%) scale(0);
+    }
+
+    .project-link:hover::before {
+      transform: translate(-50%, -50%) scale(1);
+    }
+
+    .project-link span {
+      position: relative;
+      z-index: 1;
     }
