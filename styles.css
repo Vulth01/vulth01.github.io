@@ -111,6 +111,7 @@ section h2 {
   font-weight: bold;
   margin-bottom: 20px;
 }
+/* Updated CSS for Project Presentation */
 
 .project {
   background-color: #c5dbf7;
@@ -120,6 +121,8 @@ section h2 {
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 40px;
+  position: relative; /* Ensure child elements can be positioned relative to this */
+  overflow: hidden; /* Ensure child elements stay within bounds */
 }
 
 .project:hover {
@@ -129,6 +132,7 @@ section h2 {
 .project h3 {
   margin-bottom: 10px;
   font-weight: bold;
+  color: #333; /* Adjust heading color */
 }
 
 .project p {
@@ -142,31 +146,20 @@ section h2 {
   background-color: #333;
   color: #fff;
   border-radius: 5px;
+  text-decoration: none; /* Remove underline */
+  margin-top: 10px; /* Adjust spacing */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
 }
 
 .project a:hover {
   background-color: #000;
 }
 
-/* Contact form styles */
-
-
-
-.project {
-  background-color: #000000;
-  color:#ffffff;
-  padding: 20px;
-  margin-bottom: 30px;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .project img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 10px; /* Adjust spacing */
+  border-radius: 5px; /* Rounded corners for images */
 }
 
 .project-images {
@@ -177,10 +170,11 @@ section h2 {
 }
 
 .project-images img {
-  max-width: 50%;
+  max-width: 100%; /* Ensure images don't overflow */
+  height: auto;
   margin: 0 8px;
+  border-radius: 5px; /* Rounded corners for images */
 }
-
 
 .project-video {
   position: relative;
@@ -188,41 +182,40 @@ section h2 {
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   margin-bottom: 20px;
 }
-  
+
 .project-video video {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 5px;
+  border-radius: 5px; /* Rounded corners for video */
 }
 
 #contact {
-  
-    color: #000000;
-    background-color: #79b2a0;
-    padding: 40px 20px;
+  color: #000000;
+  background-color: #79b2a0;
+  padding: 40px 20px;
 }
 
 .contact-info {
-    color: #000000;
-    margin-bottom: 20px;
-  }
-  
+  color: #000000;
+  margin-bottom: 20px;
+}
+
 .contact-info p {
   margin-bottom: 10px;
 }
-  
+
 .contact-info a {
   text-decoration: underline;
   color: #171717;
 }
 
-  .about{
-    color: #c4f6ff;
-  }
+.about {
+  color: #c4f6ff;
+}
 
-  .aboutdesc{
-    color: #ffffff;
-  }
+.aboutdesc {
+  color: #ffffff;
+}
