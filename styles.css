@@ -22,7 +22,6 @@ body {
   animation: float 5s ease-in-out infinite alternate;
 }
 
-
 @keyframes float {
   0% { transform: translateY(0); }
   100% { transform: translateY(-10px); }
