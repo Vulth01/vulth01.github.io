@@ -1,99 +1,100 @@
+/* Global styles */
 body {
-      font-family: 'Montserrat', sans-serif;
-      background-color: #f9f9f9;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
-    /* Container for the project */
-    .project-container {
-      background-color: #ffffff;
-      border-radius: 20px;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-      padding: 40px;
-      max-width: 600px;
-      width: 100%;
-      text-align: center;
-      position: relative;
-      overflow: hidden;
-      animation: float 5s ease-in-out infinite alternate;
-    }
+/* Container for the project */
+.project-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  animation: float 5s ease-in-out infinite alternate;
+}
 
-    @keyframes float {
-      0% { transform: translateY(0); }
-      100% { transform: translateY(-10px); }
-    }
+@keyframes float {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
 
-    /* Project title styling */
-    .project-title {
-      font-size: 36px;
-      font-weight: bold;
-      color: #333333;
-      margin-bottom: 20px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      animation: color-change 8s ease-in-out infinite alternate;
-    }
+/* Project title styling */
+.project-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  animation: color-change 8s ease-in-out infinite alternate;
+}
 
-    @keyframes color-change {
-      0% { color: #333333; }
-      50% { color: #007bff; }
-      100% { color: #333333; }
-    }
+@keyframes color-change {
+  0% { color: #333333; }
+  50% { color: #007bff; }
+  100% { color: #333333; }
+}
 
-    /* Project description styling */
-    .project-description {
-      font-size: 18px;
-      color: #666666;
-      line-height: 1.6;
-      margin-bottom: 30px;
-    }
+/* Project description styling */
+.project-description {
+  font-size: 18px;
+  color: #666666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
 
-    /* Link to the project */
-    .project-link {
-      display: inline-block;
-      padding: 14px 28px;
-      background-color: #007bff;
-      color: #ffffff;
-      text-decoration: none;
-      border-radius: 30px;
-      transition: background-color 0.3s ease;
-      font-size: 18px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      border: 2px solid #007bff;
-      overflow: hidden;
-    }
+/* Link to the project */
+.project-link {
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: #007bff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid #007bff;
+  overflow: hidden;
+}
 
-    /* Hover effect for the link */
-    .project-link:hover {
-      background-color: transparent;
-      color: #007bff;
-    }
+/* Hover effect for the link */
+.project-link:hover {
+  background-color: transparent;
+  color: #007bff;
+}
 
-    .project-link::before {
-      content: "";
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      width: 300%;
-      height: 300%;
-      background-color: #007bff;
-      border-radius: 50%;
-      transition: all 0.5s ease;
-      z-index: 0;
-      transform: translate(-50%, -50%) scale(0);
-    }
+.project-link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background-color: #007bff;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+  z-index: 0;
+  transform: translate(-50%, -50%) scale(0);
+}
 
-    .project-link:hover::before {
-      transform: translate(-50%, -50%) scale(1);
-    }
+.project-link:hover::before {
+  transform: translate(-50%, -50%) scale(1);
+}
 
-    .project-link span {
-      position: relative;
-      z-index: 1;
-    }
+.project-link span {
+  position: relative;
+  z-index: 1;
+}
