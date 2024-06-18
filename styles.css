@@ -3,7 +3,7 @@ head {
 }
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #d3b8e6; /* Pastel purple background */
+  background-color: #d3b8e6;
   margin: 0;
   padding: 0;
   display: flex;
@@ -13,7 +13,7 @@ body {
 }
 
 .project-container {
-  background-color: rgba(141, 209, 176, 0.8); /* Light green foreground with transparency */
+  background-color: #bdfff0;
   border-radius: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   padding: 40px;
@@ -31,7 +31,6 @@ body {
   100% { transform: translateY(-10px); }
 }
 
-/* Project title styling */
 .project-title {
   font-size: 36px;
   font-weight: bold;
@@ -47,8 +46,6 @@ body {
   50% { color: #007bff; }
   100% { color: #333333; }
 }
-
-/* Project description styling */
 .project-description {
   font-size: 18px;
   color: #666666;
@@ -56,11 +53,10 @@ body {
   margin-bottom: 30px;
 }
 
-/* Link to the project */
 .project-link {
   display: inline-block;
   padding: 14px 28px;
-  background-color: #007bff; /* Blue background */
+  background-color: #007bff;
   color: #ffffff;
   text-decoration: none;
   border-radius: 30px;
@@ -68,11 +64,10 @@ body {
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border: 2px solid #007bff; /* Matching border color */
+  border: 2px solid #007bff;
   overflow: hidden;
 }
 
-/* Hover effect for the link */
 .project-link:hover {
   background-color: transparent;
   color: #007bff;
@@ -85,7 +80,7 @@ body {
   left: 50%;
   width: 300%;
   height: 300%;
-  background-color: #007bff; /* Blue background */
+  background-color: #007bff;
   border-radius: 50%;
   transition: all 0.5s ease;
   z-index: 0;
