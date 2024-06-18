@@ -39,7 +39,7 @@ body {
 
 @keyframes color-change {
   0% { color: #333333; }
-  50% { color: #007bff; }
+  50% { color: #ffbad34; }
   100% { color: #333333; }
 }
 .project-description {
