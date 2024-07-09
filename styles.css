@@ -63,7 +63,7 @@ body {
 
 .portfolio-description {
   font-size: 18px;
-  color: #ffffff;
+  color: #ddb1fc;
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -91,7 +91,7 @@ body {
 
 .project-description {
   font-size: 18px;
-  color: #ffffff;
+  color: #ddb1fc;
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -100,7 +100,7 @@ body {
   display: inline-block;
   padding: 14px 28px;
   background-color: #007bff; /* Original blue */
-  color: #ffffff;
+  color: #ddb1fc;
   text-decoration: none;
   border-radius: 30px;
   transition: background-color 0.3s ease;
@@ -113,7 +113,7 @@ body {
 
 .project-link:hover {
   background-color: #0056b3; /* Darker shade of blue on hover */
-  color: #ffffff;
+  color: #ddb1fc;
 }
 
 .project-link::before {
