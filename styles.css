@@ -1,6 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #ddb1fc;
+  background-image: linear-gradient(to top right, #f8ffcc 35%, #c495db);			/* FADED BACKGROUND #82f4ff 30%, #ddb1fc  /   #71d9e3  30%, #ffffff 55%, #ddb1fc   */
   margin: 0;
   padding: 0;
 }
@@ -19,7 +19,7 @@ body {
 .portfolio-title {
   font-size: 36px;
   font-weight: bold;
-  color: #333333;
+  color: #333333;																/* TITLE */
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -37,7 +37,7 @@ body {
 }
 
 .portfolio-nav ul li a {
-  color: #666666;
+  color: #666666;																/* TEXT */
   text-decoration: none;
   font-size: 18px;
   text-transform: uppercase;
@@ -46,11 +46,11 @@ body {
 }
 
 .portfolio-nav ul li a:hover {
-  color: #333333;
+  color: #333333;																/* DARK GREY */
 }
 
 .portfolio-section {
-  background-color: #37deaf;
+  background-image: linear-gradient(to top right, #c495db, #a7ebd7);		/* ddb1fc SECTION BACKGROUND */
   border-radius: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   padding: 40px;
@@ -63,13 +63,13 @@ body {
 
 .portfolio-description {
   font-size: 18px;
-  color: #ffffff;
+  color: #666666;																/* ABOUT ME TEXT */
   line-height: 1.6;
   margin-bottom: 30px;
 }
 
 .project-container {
-  background-color: #37deaf;
+  background-image: linear-gradient(to bottom right, #dddddd, #bbbbbb);			/* SECTION FOREGROUND */
   border-radius: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   padding: 40px;
@@ -83,7 +83,7 @@ body {
 .project-title {
   font-size: 36px;
   font-weight: bold;
-  color: #333333;
+  color: #666666;																/* SECTION TITLE */
   margin-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -91,7 +91,7 @@ body {
 
 .project-description {
   font-size: 18px;
-  color: #ffffff;
+  color: #777777;																/* SECTION DESCRIPTION */
   line-height: 1.6;
   margin-bottom: 30px;
 }
@@ -99,21 +99,21 @@ body {
 .project-link {
   display: inline-block;
   padding: 14px 28px;
-  background-color: #007bff; /* Original blue */
-  color: #ffffff;
+  background-image: linear-gradient(to top right, #ddb1fc 10%, #71d9e3);		/* BUTTON BACKGROUND */
+  color: #ffffff;																/* WHITE */
   text-decoration: none;
   border-radius: 30px;
   transition: background-color 0.3s ease;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  border: 2px solid #007bff;
+  border: 2px solid #b0ebe0;													/* BUTTON BORDER */
   overflow: hidden;
 }
 
 .project-link:hover {
-  background-color: #0056b3; /* Darker shade of blue on hover */
-  color: #ffffff;
+  background-image: linear-gradient(to top right, #b288cf 10%, #62bcc4);		/* DARKER ON HOVER */
+  color: #ffffff;																/* WHITE */
 }
 
 .project-link::before {
@@ -123,7 +123,7 @@ body {
   left: 50%;
   width: 300%;
   height: 300%;
-  background-color: #007bff;
+  background-color: #007bff;													/* WHITE */
   border-radius: 50%;
   transition: all 0.5s ease;
   z-index: 0;
