@@ -69,7 +69,7 @@ body {
 }
 
 .project-container {
-  background-image: linear-gradient(to top right, #e4dcff, #7d7d7d);			/* SECTION FOREGROUND */
+  background-image: linear-gradient(to top right, #d4d6ff, #d4d6ff);			/* SECTION FOREGROUND */
   border-radius: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   padding: 40px;
