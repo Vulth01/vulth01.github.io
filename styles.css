@@ -1,6 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  background-image: linear-gradient(to top right, #f8ffcc 35%, #c495db);			/* FADED BACKGROUND #82f4ff 30%, #ddb1fc  /   #71d9e3  30%, #ffffff 55%, #ddb1fc   */
+  background-image: linear-gradient(to right, #7d7d7d, #d4d4d4);			/* FADED BACKGROUND #82f4ff 30%, #ddb1fc  /   #71d9e3  30%, #ffffff 55%, #ddb1fc   */
   margin: 0;
   padding: 0;
 }
@@ -50,7 +50,7 @@ body {
 }
 
 .portfolio-section {
-  background-image: linear-gradient(to top right, #c495db, #a7ebd7);		/* ddb1fc SECTION BACKGROUND */
+  background-image: linear-gradient(to top right, #e667d0, #a6eaff);		/* ddb1fc SECTION BACKGROUND */
   border-radius: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   padding: 40px;
@@ -69,7 +69,7 @@ body {
 }
 
 .project-container {
-  background-image: linear-gradient(to bottom right, #dddddd, #bbbbbb);			/* SECTION FOREGROUND */
+  background-image: linear-gradient(to top right, #e4dcff, #7d7d7d);			/* SECTION FOREGROUND */
   border-radius: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   padding: 40px;
