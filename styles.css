@@ -1,4 +1,7 @@
 body {
+  transform: scale(0.75);
+  transform-origin: top;
+
   font-family: 'Courier', monospace;
   background-image: linear-gradient(to right, #436393, #2a6a6a);			/* FADED BACKGROUND #82f4ff 30%, #ddb1fc  /   #71d9e3  30%, #ffffff 55%, #ddb1fc   */
   margin: 0;
